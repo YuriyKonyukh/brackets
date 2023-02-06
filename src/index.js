@@ -1,7 +1,6 @@
 module.exports = function check(str, bracketsConfig) {
 // your solution
 str = str.split('');
-console.log(str)
 function findBrackets() {
   for (let i = 0; i < str.length; i++) {
     bracketsConfig.forEach(item => {
